@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AlCore",
-            url: "https://github.com/Alviere/alviere-core-ios/releases/download/0.9.3/AlCore.xcframework.zip",
-            checksum: "b46df6dbece526ac344757f8536a928853d882041393b0e7cf1903ec14969cd2"
+            url: "https://github.com/Alviere/alviere-core-ios/releases/download/0.9.4/AlCore.xcframework.zip",
+            checksum: "d5152977998e4341cfbdbda21865c2003cb143c9a8bfe7673ceb1f62760128df"
         )
     ]
 )
