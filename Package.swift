@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AlCore",
-            url: "https://github.com/Alviere/alviere-core-ios/releases/download/0.9.21/AlCore.xcframework.zip",
-            checksum: "aeeec27f18bbc2389273af92168fc0a5be2961395415be156e144719dd555733"
+            url: "https://github.com/Alviere/alviere-core-ios/releases/download/0.9.23/AlCore.xcframework.zip",
+            checksum: "37b681a1db8e01b2ca2f4573243c887098ed4ed56235a15b4dae00786284ff1f"
         )
     ]
 )
