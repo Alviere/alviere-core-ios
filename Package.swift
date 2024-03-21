@@ -5,7 +5,7 @@ let package = Package(
     name: "AlCore",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(name: "AlCore", targets: ["AlCore"])
@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AlCore",
-            url: "https://github.com/Alviere/alviere-core-ios/releases/download/0.9.24/AlCore.xcframework.zip",
-            checksum: "376b372e00186dca415d144d2ddac04cadfb79ea4df8664bc5d5e18758028013"
+            url: "https://github.com/Alviere/alviere-core-ios/releases/download/0.9.25/AlCore.xcframework.zip",
+            checksum: "565b8c3e0f1a2fc608a69f4955bb37ed48e929fc7e694a485ec59aaa6311ccdb"
         )
     ]
 )
